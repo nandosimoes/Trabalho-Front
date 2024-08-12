@@ -1,0 +1,140 @@
+/* Reset básico */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+/* Ajuste do header */
+header {
+    height: 70px;
+    background-color: #2C2C2C; 
+}
+
+/* Container principal */
+.container {
+    width: 100%;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(/img/fundo.png);
+    background-size: cover; 
+    background-position: center; 
+    padding: 20px; /
+}
+
+/* Botões */
+button, .delete-button {
+    background-color: #ab72ff; 
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    width: 120px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
+    width: 200px;
+   
+}
+
+button:hover {
+    background-color: #A57BFF;
+}
+
+/* Botão de deletar */
+.delete-button {
+    background-color: #985af7; 
+    width: 140px;
+}
+
+.delete-button:hover {
+    background-color: #A57BFF; 
+}
+/* estilizaçao da imagem de logo*/
+.image {
+    width: 200px;
+    margin-bottom: 20px;
+}
+.image2 {
+    width: 130px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.imagem {
+    width: 60px;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.cadastro {
+    padding: 40px;
+    background-color: #2C2C2C; 
+    border-radius: 10px; 
+}
+
+/* Controle de formulário */
+.form-control {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: baseline;
+}
+
+
+/* Campos de entrada */
+input {
+    width: 100%;
+    margin: 10px;
+    border: 1px solid #BF94FF;
+    height: 30px;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+}
+
+/* Itens da lista */
+li {
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    height: 50px;
+    background-color: #282828; 
+}
+
+/* Listas */
+.listas {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo de cabeçalho */
+#classe {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #BF94FF; 
+    color: white;
+    width: 270px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo de cabeçalho (deletar) */
+#delete {
+    font-size: 20px;
+    background-color: #BF94FF; 
+    color: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
